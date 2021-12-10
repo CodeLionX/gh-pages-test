@@ -1,9 +1,3 @@
----
-layout: page
-title: "Test notebook using markdown"
-permalink: /test-notebook/
----
-
 # Test notebook
 
 This notebook showcases the publication of our results using HTML-exported jupyter notebooks.
