@@ -27,7 +27,7 @@ Steps to convert a Jupyter Notebook to a markdown file compatible with GH-Pages 
    This command will also remove all prompts and input cells for a cleaner output.
 
 3. Clean and sanitize the markdown file:
-   You have to remove all appearences of `{{`, `}}`, `{%`, and `%}` in the original markdown file, because they are
+   You have to remove all appearences of {{ '`{{`' }}, `}}`, {{ '`{%`' }}, and `%}` in the original markdown file, because they are
    interpreted by Liquid (the used templating engine).
    You can use the script `sanitize.sh` for this step.
 
