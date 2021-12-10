@@ -4,8 +4,6 @@ title: "Test notebook using markdown"
 permalink: /test-notebook/
 ---
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
-
 # Test notebook
 
 This notebook showcases the publication of our results using HTML-exported jupyter notebooks.
@@ -17,6 +15,7 @@ We use the following packages:
 - plotly
 - timeeval
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 <script type="text/javascript">
 window.PlotlyConfig = {MathJaxConfig: 'local'};
