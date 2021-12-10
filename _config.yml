@@ -1,1 +1,3 @@
 theme: jekyll-theme-cayman
+title: Test Page
+description: Page to test gh-pages with generated html-files (from jupyter notebooks).
