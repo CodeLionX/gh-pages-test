@@ -1,7 +1,6 @@
 ---
 title: Test notebook (2)
 description: This page showcases a html-rendered jupyter notebook
-permalink: /test-notebook/
 ---
 
 # Test notebook
@@ -2116,8 +2115,7 @@ if (outputEl) { {
 In the next plot, we show the ROC_AUC score of each algorithm in relation to its relative number of processed datasets.
 
 
-{% assign image = site.static_files | find: "basename", "Publication Test_24_0 %}
-![png]({{ image.path }})
+![png](./Test2_24_0.png)
 
 
 ### Runtime-weighted AUC_ROC scores

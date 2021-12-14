@@ -1,7 +1,7 @@
 # Home Page
 
 Test home page.
-Go to [Publication Test](./Publication-Test.html) to look at the evaluation results.
+Go to [Publication Test](./Publication-Test.html) to look at the bare evaluation results or to [Test 2](./notebooks/Test2.html) for a better UX.
 
 ## How-To
 
