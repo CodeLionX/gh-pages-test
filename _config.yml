@@ -2,3 +2,5 @@ theme: jekyll-theme-cayman
 title: Test Page
 description: Page to test gh-pages with generated html-files (from jupyter notebooks).
 google_analytics: false
+include:
+  - "Test2_files/Publication Test_24_0.png"
