@@ -1,6 +1,8 @@
 # Home Page
 {:.no_toc}
 
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript" ></script>
+
 Test home page.
 Go to [Publication Test](./Publication-Test.html) to look at the bare evaluation results or to [Test 2](./notebooks/Test2.html) for a better UX.
 
@@ -53,9 +55,12 @@ Steps to convert a Jupyter Notebook to a markdown file compatible with GH-Pages 
 
 Here, we just test out the math engine of Jekyll and kramdown:
 
-- $\lim_{n \to \inf}\Sigma^n_{i=1} \frac{i+2}{4n}$
-- $$\lim_{n \to \inf}\Sigma^n_{i=1} \frac{i+2}{4n}$$
-- \[\lim_{n \to \inf}\Sigma^n_{i=1} \frac{i+2}{4n}\]
-- \(\lim_{n \to \inf}\Sigma^n_{i=1} \frac{i+2}{4n}\)
+$\lim_{n \to \inf}\Sigma^n_{i=1} \frac{i+2}{4n}$
 
-Here is a reference to the kramdown-Syntax that is used by Jekyll to transform this document to HTML: https://kramdown.gettalong.org/syntax.html.
+$$\lim_{n \to \inf}\Sigma^n_{i=1} \frac{i+2}{4n}$$
+
+\[\lim_{n \to \inf}\Sigma^n_{i=1} \frac{i+2}{4n}\]
+
+\(\lim_{n \to \inf}\Sigma^n_{i=1} \frac{i+2}{4n}\)
+
+[Here](https://kramdown.gettalong.org/syntax.html) is a reference to the kramdown-Syntax that is used by Jekyll to transform this document to HTML.
