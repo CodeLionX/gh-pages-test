@@ -57,3 +57,5 @@ Here, we just test out the math engine of Jekyll and kramdown:
 - $$\lim_{n \to \inf}\Sigma^n_{i=1} \frac{i+2}{4n}$$
 - \[\lim_{n \to \inf}\Sigma^n_{i=1} \frac{i+2}{4n}\]
 - \(\lim_{n \to \inf}\Sigma^n_{i=1} \frac{i+2}{4n}\)
+
+Here is a reference to the kramdown-Syntax that is used by Jekyll to transform this document to HTML: https://kramdown.gettalong.org/syntax.html.
