@@ -1,7 +1,13 @@
 # Home Page
+{:.no_toc}
 
 Test home page.
 Go to [Publication Test](./Publication-Test.html) to look at the bare evaluation results or to [Test 2](./notebooks/Test2.html) for a better UX.
+
+## Content
+
+- table of contents
+{:toc}
 
 ## How-To
 
@@ -42,3 +48,7 @@ Steps to convert a Jupyter Notebook to a markdown file compatible with GH-Pages 
    permalink: /test-notebook/
    ---
    ```
+
+## Math Test
+
+Here, we just test out the math engine of Jekyll and kramdown: $\lim_{n \to \inf}\Sigma^n_{i=1} \frac{i+2}{4n}$.

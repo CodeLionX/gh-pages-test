@@ -32,11 +32,6 @@ require(['plotly'], function(Plotly) {
 }
 </script>
 
-## Content
-
-- table of contents list
-{:toc}
-
 ## Load results
 
 We read the results from the TimeEval experiment `2021-12-03_runtime-gutentag-2-merged`.
