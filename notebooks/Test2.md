@@ -2115,7 +2115,7 @@ if (outputEl) { {
 In the next plot, we show the ROC_AUC score of each algorithm in relation to its relative number of processed datasets.
 
 
-![png](./Test2_24_0.png)
+![png](./img/Test2_24_0.png)
 
 
 ### Runtime-weighted AUC_ROC scores
