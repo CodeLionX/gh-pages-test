@@ -18,17 +18,17 @@ Steps to convert a Jupyter Notebook to a markdown file compatible with GH-Pages 
    This is needed for Plotly to load correctly.
    You can use the following code:
 
-   ```python
+   ~~~python
    from IPython.display import display, HTML
    # load require.js
    display(HTML('<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>'))
-   ```
+   ~~~
 
 2. Use `nbconvert` to convert your notebook to markdown:
 
-   ```bash
+   ~~~bash
    jupyter nbconvert --no-prompt --no-input --to markdown notebooks/<notebook>.ipynb
-   ```
+   ~~~
 
    This command will also remove all prompts and input cells for a cleaner output.
 
@@ -41,14 +41,19 @@ Steps to convert a Jupyter Notebook to a markdown file compatible with GH-Pages 
    This includes title, description, its permalink, and other details.
    Example:
 
-   ```yaml
+   ~~~yaml
    ---
    title: Test notebook
    description: This page showcases a html-rendered jupyter notebook
    permalink: /test-notebook/
    ---
-   ```
+   ~~~
 
 ## Math Test
 
-Here, we just test out the math engine of Jekyll and kramdown: $\lim_{n \to \inf}\Sigma^n_{i=1} \frac{i+2}{4n}$.
+Here, we just test out the math engine of Jekyll and kramdown:
+
+- $\lim_{n \to \inf}\Sigma^n_{i=1} \frac{i+2}{4n}$
+- $$\lim_{n \to \inf}\Sigma^n_{i=1} \frac{i+2}{4n}$$
+- \[\lim_{n \to \inf}\Sigma^n_{i=1} \frac{i+2}{4n}\]
+- \(\lim_{n \to \inf}\Sigma^n_{i=1} \frac{i+2}{4n}\)
