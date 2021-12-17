@@ -55,16 +55,22 @@ Steps to convert a Jupyter Notebook to a markdown file compatible with GH-Pages 
 
 Here, we just test out the math engine of Jekyll and kramdown:
 
-The default LaTeX-environments are not supported: $\lim_{n \to \inf}\Sigma^n_{i=1} \frac{i+2}{4n}$.
+The default LaTeX-environments are not supported: $\lim_{n \to \infty}\Sigma^n_{i=1} \frac{i+2}{4n}$.
 
 However, you can display a math-block with `$$`:
 
-$$\lim_{n \to \inf}\Sigma^n_{i=1} \frac{i+2}{4n}$$
+$$\lim_{n \to \infty}\Sigma^n_{i=1} \frac{i+2}{4n}$$
 
 or with `\\[`:
 
-\\[\lim_{n \to \inf}\Sigma^n_{i=1} \frac{i+2}{4n}\\].
+\\[\lim_{n \to \infty}\Sigma^n_{i=1} \frac{i+2}{4n}\\].
 
-Or you can use inline math with `\\(`: \\(\lim_{n \to \inf}\Sigma^n_{i=1} \frac{i+2}{4n}\\).
+Or you can use inline math with `\\(`: \\(\lim_{n \to \infty}\Sigma^n_{i=1} \frac{i+2}{4n}\\).
 
-[Here](https://kramdown.gettalong.org/syntax.html) is a reference to the kramdown-Syntax that is used by Jekyll to transform this document to HTML.
+Try also to use inline math with `\$$`: \$$3+5\epsilon \leq \infty$$
+
+[Here](https://kramdown.gettalong.org/syntax.html) is a reference to the kramdown-Syntax that is used by Jekyll to transform this document to HTML[^footnote].
+
+## Footnotes
+
+[^footnote]: Footnote test.
